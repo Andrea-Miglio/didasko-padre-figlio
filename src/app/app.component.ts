@@ -6,5 +6,10 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular ' + VERSION.major;
+  titolo:string="Contatore"
+  locConta:number = 0;
+  incrementaContatore(){
+    this.locConta++;
+  }
+
 }
