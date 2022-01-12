@@ -11,5 +11,8 @@ export class AppComponent  {
   incrementaContatore(){
     this.locConta++;
   }
+  resetContatore(){
+    this.locConta = 0
+  }
 
 }
